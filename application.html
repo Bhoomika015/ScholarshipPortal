@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Merit Scholarship Portal</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400' rel='stylesheet'
+        type='text/css'>
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+        rel="stylesheet">
+
+    <!-- Main CSS-->
+    <link href="main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <!-- header section -->
+    <div class="header">
+        <a href="#default" class="logo">Merit Scholarship Portal</a><img
+            src="https://img.icons8.com/fluent/48/000000/graduation-cap.png" />
+        <div class="header-right">
+
+            <a class="active" href="dashboard.html">Dashboard</a>
+        </div>
+    </div>
+    <!-- Navigation -->
+    <nav class="fill" id="123">
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+
+
+
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+
+                    <ul>
+                        <li>
+
+                            <a href="index.html" class="nav-link active"><b>Home</b></a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link">Service</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">contact</a>
+                        </li>
+                        <li>
+                            <a href="application.html" class="nav-link">Fill Application</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="topnav-right">
+                    <ul>
+                        <li><a href="login.html" class="nav-link"><img
+                                    src="https://img.icons8.com/fluent/40/000000/login-rounded-right.png" />
+                                &nbsp;&nbsp;Login</a>
+                        </li>
+                        <li><a href="registration.html" class="nav-link"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/edit-user-male.png" />&nbsp;&nbsp;New
+                                Registration</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="page-wrapper bg-secondary p-t-100 p-b-50">
+            <div class="wrapper wrapper--w900">
+                <div class="card-heading">
+                    <h2 class="title">Apply for Scholarship</h2>
+                </div>
+                <div class="card card-6">
+
+                    <div class="card-body">
+                        <form method="POST">
+                            <div class="form-row">
+                                <div class="name">Applicant name</div>
+                                <div class="value">
+                                    <input class="input--style-6" type="text" name="full_name">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="name">Father Name</div>
+                                <div class="value">
+                                    <input class="input--style-6" type="text" name="full_name">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="name">DOB</div>
+                                <div class="value">
+                                    <input class="input--style-6" type="date" id="start" name="trip-start"
+                                        value="yyyy-mm-dd" min="1994-01-01" max="2022-12-31">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="name">
+                                    Address
+                                </div>
+                                <div class="value">
+                                    <div class="input-group">
+                                        <textarea class="textarea--style-6" name="message"
+                                            placeholder="House Address"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="name">Upload Documents</div>
+                                <div class="value">
+                                    <div class="input-group js-input-file">
+                                        <input class="input-file" type="file" name="file_cv" id="file">
+                                        <label class="label--file" for="file">Choose file</label>
+                                        <span class="input-file__info">No file chosen</span>
+                                    </div>
+                                    <div class="label--desc">Upload your Documents. Max file
+                                        size 50
+                                        MB</div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn--radius-2 btn--blue-2" onclick="fun()" type="submit">Send
+                            Application</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--- Footer -->
+        <footer>
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <a href="#default" class="logo" style="text-decoration:none;">
+                            <font color=" #d5d5d5">Merit Scholarship
+                                Portal</font>
+                        </a>&nbsp;&nbsp;<img src=" https://img.icons8.com/fluent/48/000000/graduation-cap.png" />
+                        <hr class="light">
+                        <p>555-555-555</p>
+                        <p>email@meritscholarship.com</p>
+                        <p>100 street Name</p>
+                        <p>City, State, 000061</p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Our Hours</h5>
+                        <hr class="light">
+                        <p>Monday: 9am - 5pm</p>
+                        <p>Saturday: 10am - 4pm</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Service Area</h5>
+                        <hr class="light">
+                        <p>City, State, 000061</p>
+                        <p>City, State, 000071</p>
+                        <p>City, State, 000018</p>
+                        <p>City, State, 000091</p>
+                    </div>
+                    <div class="col-12">
+                        <hr class="light-100">
+                        <h5>meritscholarship.com</h5>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Jquery JS-->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="js/global.js"></script>
+
+        <script>
+            function fun() {
+                var tendigitrandom = Math.floor(1000000000 + Math.random() * 9000000000);
+                alert("The reference Number Generated for your application is : " + tendigitrandom);
+            }
+        </script>
+</body>

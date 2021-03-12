@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Merit Scholarship Portal</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400' rel='stylesheet'
+        type='text/css'>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Animation library for notifications   -->
+    <link href="assets/css/animate.min.css" rel="stylesheet" />
+
+    <!--  Light Bootstrap Table core CSS    -->
+    <link href="assets/css/light-bootstrap-dashboard.css?v=1.4.0" rel="stylesheet" />
+
+
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <link href="assets/css/demo.css" rel="stylesheet" />
+
+
+    <!--     Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+    <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <!-- header section -->
+    <div class="header">
+        <a href="#default" class="logo" style="text-decoration: none;">Merit Scholarship Portal</a><img
+            src="https://img.icons8.com/fluent/48/000000/graduation-cap.png" />
+        <div class="header-right">
+
+            <a class="active" href="dashboard.html" style="text-decoration: none;">Dashboard</a>
+        </div>
+    </div>
+    <!-- Navigation -->
+    <nav class="fill" id="123">
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+
+
+
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+
+                    <ul>
+                        <li>
+
+                            <a href="index.html" class="nav-link active"><b>Home</b></a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link">Service</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">contact</a>
+                        </li>
+                        <li>
+                            <a href="application.html" class="nav-link">Fill Application</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="topnav-right">
+                    <ul>
+                        <li><a href="login.html" class="nav-link"><img
+                                    src="https://img.icons8.com/fluent/40/000000/login-rounded-right.png" />
+                                &nbsp;&nbsp;Login</a>
+                        </li>
+                        <li><a href="registration.html" class="nav-link"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/edit-user-male.png" />&nbsp;&nbsp;New
+                                Registration</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </br></br>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+
+                    <div class="header">
+                        <h4 class="title">Scholarship Statistics</h4>
+                        <p class="category">Statistics of Applications Received & Verified - State & Ministry Wise</p>
+                    </div>
+                    <div class="content">
+                        <div id="chartPreferences" class="ct-chart ct-perfect-fourth"></div>
+
+                        <div class="footer">
+                            <div class="legend">
+                                <i class="fa fa-circle text-info"></i>Total Received Applications
+                                <i class="fa fa-circle text-danger"></i> Total Verified Applications
+                                <i class="fa fa-circle text-warning"></i> Percentage of verified Applications
+                            </div>
+                            <hr>
+                            <div class="stats">
+                                <i class="fa fa-clock-o"></i>sent 2 days ago
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="header">
+                        <h4 class="title">Total Amount Disbursed</h4>
+                        <p class="category">State wise & Ministry wise</p>
+                    </div>
+                    <div class="content">
+                        <div id="chartHours" class="ct-chart"></div>
+                        <div class="footer">
+                            <div class="legend">
+                                <i class="fa fa-circle text-info"></i> Total Amount Disburshment
+                                <i class="fa fa-circle text-danger"></i>Percentage of Total Disburshed Amount
+                                <i class="fa fa-circle text-warning"></i> Disability Wise
+                            </div>
+                            <hr>
+                            <div class="stats">
+                                <i class="fa fa-history"></i> Updated 3 minutes ago
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <footer>
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <a href="#default" class="logo" style="text-decoration:none;">
+                            <font color=" #d5d5d5">Merit Scholarship
+                                Portal</font>
+                        </a>&nbsp;&nbsp;<img src=" https://img.icons8.com/fluent/48/000000/graduation-cap.png" />
+                        <hr class="light">
+                        <p>555-555-555</p>
+                        <p>email@meritscholarship.com</p>
+                        <p>100 street Name</p>
+                        <p>City, State, 000061</p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Our Hours</h5>
+                        <hr class="light">
+                        <p>Monday: 9am - 5pm</p>
+                        <p>Saturday: 10am - 4pm</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Service Area</h5>
+                        <hr class="light">
+                        <p>City, State, 000061</p>
+                        <p>City, State, 000071</p>
+                        <p>City, State, 000018</p>
+                        <p>City, State, 000091</p>
+                    </div>
+                    <div class="col-12">
+                        <hr class="light-100">
+                        <h5>meritscholarship.com</h5>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--   Core JS Files   -->
+        <script src="assets/js/jquery.3.2.1.min.js" type="text/javascript"></script>
+        <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!--  Charts Plugin -->
+        <script src="assets/js/chartist.min.js"></script>
+
+        <!--  Notifications Plugin    -->
+        <script src="assets/js/bootstrap-notify.js"></script>
+
+        <!--  Google Maps Plugin    -->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+
+        <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
+        <script src="assets/js/light-bootstrap-dashboard.js?v=1.4.0"></script>
+
+        <!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
+        <script src="assets/js/demo.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+
+                demo.initChartist();
+
+                $.notify({
+                    icon: 'pe-7s-gift',
+                    message: "Welcome to <b>Merit Scholarship Dashboard</b>."
+
+                }, {
+                    type: 'info',
+                    timer: 4000
+                });
+
+            });
+        </script>
